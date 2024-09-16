@@ -1,19 +1,26 @@
-#Carousel{
+#photo-carousel{
   width: 100%;
 }
 .description{
+  position: relative;
   margin-top: 3%;
-  display: inline-flex;
+  display: flex;
 }
-#Reviews{
-  width: 70%;
+.col{
+  right: 0%;
+  width: 30%;
+  position: absolute;
+  height: 100%;
+}
+#reviews{
+  width: 60%;
   margin-left:3%;
   margin-right:3%;
 }
-#Reservation{
-  position: relative;
-  left: auto;
+#Reservations{
+  position: sticky;
+  top: 30%;
 }
-#Nearbty{
+#Nearby{
   position: relative;
 }
